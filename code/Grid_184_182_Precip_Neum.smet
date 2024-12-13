@@ -1,0 +1,28 @@
+SMET 1.1 ASCII
+[HEADER]
+station_id       = Grid_184_182
+station_name     = Station_184_182
+latitude         = 31.594629
+longitude        = 96.102753
+altitude         = 2540.0
+nodata           = -999
+tz               = 8
+units_offset     = 0 0 0 0 273.15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 273.15 273.15 273.15 273.15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 273.15 273.15 273.15 273.15 273.15 0 0 0 0 0 0 0 0 0 0 0 0 
+units_multiplier = 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.01 1 1 1 1 0.01 0.01 0.001 0.01 0.01 0.01 0.01 0.01 0.01 0.001 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+slope_angle      = 0
+slope_azi        = 0
+plot_unit        = - W/m2 W/m2 W/m2 K W/m2 W/m2 W/m2 W/m2 MJ/m2 W/m2 W/m2 W/m2 W/m2 W/m2 W/m2 - - W/m2 W/m2 W/m2 K K K K - m/s m/s ° kg/m2/h m m m m m m m m m m m kg/m2 kg/m2 kg/m2 kg/m2 kg/m2/h kg/m2/h kg/m2 kg/m2 kg/m2 kg/m2 kg/m2 K K K K K - - m - m - m - m - m - 
+plot_description = timestamp  sensible_heat  latent_heat  ground_heat  ground_temperature  ground_heat_at_soil_interface  rain_energy  snow_internal_energy_change  snow_melt_freeze_energy  snow_cold_content outgoing_long_wave_radiation  incoming_long_wave_radiation  net_long_wave_radiation reflected_short_wave_radiation  incoming_short_wave_radiation  net_short_wave_radiation  parametrized_albedo  measured_albedo  incoming_short_wave_on_horizontal  direct_incoming_short_wave  diffuse_incoming_short_wave air_temperature  surface_temperature(mod)  surface_temperature(meas)  bottom_temperature  relative_humidity  wind_velocity  wind_velocity_drift  wind_direction  solid_precipitation_rate  snow_height(mod)  snow_height(meas) hoar_size  24h_wind_drift 3h_height_of_new_snow 6h_height_of_new_snow 12h_height_of_new_snow 24h_height_of_new_snow 3d_sum_of_daily_height_of_new_snow 24h_percipitation skier_penetration_depth snow_water_equivalent  total_amount_of_water  total_amount_of_water_soil  total_amount_of_ice_soil  erosion_mass_loss  rain_rate  virtual_lysimeter_surface_snow_only surface_mass_flux  virtual_lysimeter_under_the_soil  sublimation_mass  evaporated_mass temperature@0.25m temperature@0.5m temperature@1m temperature@-0.25m temperature@-0.1m profile_type  stability_class  z_Sdef  deformation_rate_stability_index  z_Sn38  natural_stability_index  z_Sk38  Sk38_skier_stability_index  z_SSI  structural_stability_index  z_S5 stability_index_5 
+plot_color       = 0x000000 0x669933 0x66CC99 0xCC6600 0xDE22E2 0xFFCC00 0x6600FF 0x663300 0x996666 0xCC9966 0x8F6216 0xD99521 0xD9954E 0x7D643A 0xF9CA25 0xF9CA9D 0xCC9966 0x996633 0xF9CA25 0x90ca25 0x90CAB8 0x8324A4 0xFAA6D0 0xFA72B7 0xDE22E2 0x50CBDB 0x297E24 0x297E24 0x64DD78 0x2431A4 0x818181 0x000000 0x9933FF 0x99FFCC 0x006699 0x006699 0x006699 0x006699 0x33CCCC 0x006699 0x9933FF 0x3300FF 0x3300FF 0x3300FF 0x3300FF 0x0000FF 0x99CCCC 0x3333 0x0066CC 0x003366 0xCCFFFF 0xCCCCFF 0xFF0000 0xFF0000 0xFF0000 0xFF0000 0xFF0000 0xFF0000 0xFF0000 0xFF0000 0xFF0000 0xFF0000 0xFF0000 0xFF0000 0xFF0000 0xFF0000 0xFF0000 0xFF0000 0xFF0000 
+fields           = timestamp Qs Ql Qg TSG Qg0 Qr dIntEnergySnow meltFreezeEnergySnow ColdContentSnow OLWR ILWR LWR_net OSWR ISWR Qw pAlbedo mAlbedo ISWR_h ISWR_dir ISWR_diff TA TSS_mod TSS_meas T_bottom RH VW VW_drift DW MS_Snow HS_mod HS_meas hoar_size wind_trans24 HN3 HN6 HN12 HN24 HN72_24 PSUM24 ski_pen SWE MS_Water MS_Water_Soil MS_Ice_Soil MS_Wind MS_Rain MS_SN_Runoff MS_Surface_Mass_Flux MS_Soil_Runoff MS_Sublimation MS_Evap TS0 TS1 TS2 TS3 TS4 Sclass1 Sclass2 zSd Sd zSn Sn zSs Ss zS4 S4 zS5 S5 
+creator_name     = root
+creator_type     = person
+date_created     = 2024-10-25
+history          = 2024-10-24T17:36:21Z, root@ecm-tayxeb, MeteoIO-2.11.0
+keywords         = Cryosphere, Mass Balance, Energy Balance, Atmosphere, Land/atmosphere interactions, Climatology
+keywords_vocabulary = AGU Index Terms
+product_version  = 1.0
+source           = MeteoIO-2.11.0
+[DATA]
+2023-01-01T03:00:00 -749.793 -638.423    0.000  -11.530     -999    0.000    0.000    0.000    0.000  252.365  220.000  -43.365  305.000  474.000  169.000    0.223    0.643  474.000    0.000  474.000  -14.080  -11.530     -999  -11.530   69.800    7.400    7.400  229.000    0.000    0.000   13.600    0.000    0.000    0.000    0.000    0.000    0.000    0.000    0.000     -999    0.000    0.000    0.000    0.000   -0.000    0.000    0.000    0.000     -999    0.000    0.000     -999     -999     -999     -999     -999   -1.000   -1.000    0.000    6.000    0.000    6.000    0.000    6.000    0.000    6.000    0.000     -999
+2023-01-01T06:00:00 -3270.808 -3294.261    0.000   -2.560  -83.250    0.000    0.000    0.000    0.000  278.633  212.750  -76.520  409.458  650.917  241.458    0.300    0.630  650.917    0.000  650.917   -9.610   -2.560     -999   -2.560   37.800   16.500   16.500  225.000    0.000    0.000   13.600    0.000    0.000    0.000    0.000    0.000    0.000    0.000    0.000     -999    0.000    0.000    0.000    0.000   -0.000    0.000    0.000    0.000     -999    0.000    0.000     -999     -999     -999     -999     -999   -1.000   -1.000    0.000    6.000    0.000    6.000    0.000    6.000    0.000    6.000    0.000     -999

@@ -1,0 +1,4 @@
+Training Log
+Parameters: latent_dim, batch_size, epochs
+Results: reconstruction_error_threshold, anomalies_detected, training_time
+--------------------------------------------------------------------------------
