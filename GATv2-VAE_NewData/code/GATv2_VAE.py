@@ -24,8 +24,7 @@ class GATv2Net(nn.Module):
 
 def prepare_data(file_path):
     data = pd.read_csv(file_path)
-    
-    # 移除 yichang 列，如果存在的话
+   
     if 'yichang' in data.columns:
         features = data.drop(columns=['yichang']).values
     else:
@@ -34,25 +33,23 @@ def prepare_data(file_path):
     features = torch.tensor(features, dtype=torch.float32).T 
     num_features = features.size(0)
     
-    adj_matrix = torch.ones((num_features, num_features)) - torch.eye(num_features)  # 完全图
+    adj_matrix = torch.ones((num_features, num_features)) - torch.eye(num_features) 
     edge_index = dense_to_sparse(adj_matrix)[0]
     
     return Data(x=features, edge_index=edge_index)
 
 def inference(model, file_path):
-    model.eval()  # 设置为评估模式
+    model.eval()
     graph_data_new = prepare_data(file_path).to(device)
 
     with torch.no_grad():
-        output_new = model(graph_data_new.x, graph_data_new.edge_index)  # 获得模型输出
+        output_new = model(graph_data_new.x, graph_data_new.edge_index)  
 
-    # 打印输出
     print("GATv2 模型的输出：")
-    print(output_new)  # 打印推理结果
+    print(output_new) 
     print(f"模型输出的维度: {output_new.shape}")
-    return output_new.T.numpy()  # 返回转置后的numpy数组
+    return output_new.T.numpy() 
 
-# VAE相关部分
 def build_vae(input_dim, latent_dim):
     class Encoder(layers.Layer):
         def __init__(self, latent_dim, **kwargs):

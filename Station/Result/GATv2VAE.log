@@ -1,0 +1,112 @@
+Training Log
+Parameters: latent_dim, batch_size, epochs
+Results: reconstruction_error_threshold, anomalies_detected, training_time
+--------------------------------------------------------------------------------
+latent_dim=5, batch_size=16, epochs=20
+reconstruction_error_threshold=0.0153, anomalies_detected=18, training_time=0:00:03.595765
+--------------------------------------------------------------------------------
+latent_dim=5, batch_size=16, epochs=30
+reconstruction_error_threshold=0.0149, anomalies_detected=18, training_time=0:00:04.653367
+--------------------------------------------------------------------------------
+latent_dim=5, batch_size=16, epochs=50
+reconstruction_error_threshold=0.0143, anomalies_detected=18, training_time=0:00:06.900695
+--------------------------------------------------------------------------------
+latent_dim=5, batch_size=32, epochs=20
+reconstruction_error_threshold=0.0135, anomalies_detected=18, training_time=0:00:02.578437
+--------------------------------------------------------------------------------
+latent_dim=5, batch_size=32, epochs=30
+reconstruction_error_threshold=0.0146, anomalies_detected=18, training_time=0:00:03.312582
+--------------------------------------------------------------------------------
+latent_dim=5, batch_size=32, epochs=50
+reconstruction_error_threshold=0.0145, anomalies_detected=18, training_time=0:00:04.632964
+--------------------------------------------------------------------------------
+latent_dim=5, batch_size=64, epochs=20
+reconstruction_error_threshold=0.0190, anomalies_detected=18, training_time=0:00:02.159168
+--------------------------------------------------------------------------------
+latent_dim=5, batch_size=64, epochs=30
+reconstruction_error_threshold=0.0148, anomalies_detected=18, training_time=0:00:02.626043
+--------------------------------------------------------------------------------
+latent_dim=5, batch_size=64, epochs=50
+reconstruction_error_threshold=0.0163, anomalies_detected=18, training_time=0:00:04.155649
+--------------------------------------------------------------------------------
+latent_dim=10, batch_size=16, epochs=20
+reconstruction_error_threshold=0.0158, anomalies_detected=18, training_time=0:00:03.458931
+--------------------------------------------------------------------------------
+latent_dim=10, batch_size=16, epochs=30
+reconstruction_error_threshold=0.0157, anomalies_detected=18, training_time=0:00:04.523713
+--------------------------------------------------------------------------------
+latent_dim=10, batch_size=16, epochs=50
+reconstruction_error_threshold=0.0157, anomalies_detected=18, training_time=0:00:06.673324
+--------------------------------------------------------------------------------
+latent_dim=10, batch_size=32, epochs=20
+reconstruction_error_threshold=0.0149, anomalies_detected=18, training_time=0:00:02.517488
+--------------------------------------------------------------------------------
+latent_dim=10, batch_size=32, epochs=30
+reconstruction_error_threshold=0.0146, anomalies_detected=18, training_time=0:00:03.200486
+--------------------------------------------------------------------------------
+latent_dim=10, batch_size=32, epochs=50
+reconstruction_error_threshold=0.0155, anomalies_detected=18, training_time=0:00:04.778244
+--------------------------------------------------------------------------------
+latent_dim=10, batch_size=64, epochs=20
+reconstruction_error_threshold=0.0163, anomalies_detected=18, training_time=0:00:02.809937
+--------------------------------------------------------------------------------
+latent_dim=10, batch_size=64, epochs=30
+reconstruction_error_threshold=0.0161, anomalies_detected=18, training_time=0:00:02.699083
+--------------------------------------------------------------------------------
+latent_dim=10, batch_size=64, epochs=50
+reconstruction_error_threshold=0.0137, anomalies_detected=18, training_time=0:00:03.609434
+--------------------------------------------------------------------------------
+latent_dim=15, batch_size=16, epochs=20
+reconstruction_error_threshold=0.0158, anomalies_detected=18, training_time=0:00:03.501686
+--------------------------------------------------------------------------------
+latent_dim=15, batch_size=16, epochs=30
+reconstruction_error_threshold=0.0160, anomalies_detected=18, training_time=0:00:04.506645
+--------------------------------------------------------------------------------
+latent_dim=15, batch_size=16, epochs=50
+reconstruction_error_threshold=0.0128, anomalies_detected=18, training_time=0:00:06.885893
+--------------------------------------------------------------------------------
+latent_dim=15, batch_size=32, epochs=20
+reconstruction_error_threshold=0.0172, anomalies_detected=18, training_time=0:00:02.582118
+--------------------------------------------------------------------------------
+latent_dim=15, batch_size=32, epochs=30
+reconstruction_error_threshold=0.0153, anomalies_detected=18, training_time=0:00:03.267844
+--------------------------------------------------------------------------------
+latent_dim=15, batch_size=32, epochs=50
+reconstruction_error_threshold=0.0140, anomalies_detected=18, training_time=0:00:04.641624
+--------------------------------------------------------------------------------
+latent_dim=15, batch_size=64, epochs=20
+reconstruction_error_threshold=0.0166, anomalies_detected=18, training_time=0:00:02.200019
+--------------------------------------------------------------------------------
+latent_dim=15, batch_size=64, epochs=30
+reconstruction_error_threshold=0.0178, anomalies_detected=18, training_time=0:00:02.637991
+--------------------------------------------------------------------------------
+latent_dim=15, batch_size=64, epochs=50
+reconstruction_error_threshold=0.0137, anomalies_detected=18, training_time=0:00:03.555679
+--------------------------------------------------------------------------------
+latent_dim=20, batch_size=16, epochs=20
+reconstruction_error_threshold=0.0119, anomalies_detected=18, training_time=0:00:03.434041
+--------------------------------------------------------------------------------
+latent_dim=20, batch_size=16, epochs=30
+reconstruction_error_threshold=0.0141, anomalies_detected=18, training_time=0:00:04.465366
+--------------------------------------------------------------------------------
+latent_dim=20, batch_size=16, epochs=50
+reconstruction_error_threshold=0.0145, anomalies_detected=18, training_time=0:00:06.851240
+--------------------------------------------------------------------------------
+latent_dim=20, batch_size=32, epochs=20
+reconstruction_error_threshold=0.0143, anomalies_detected=18, training_time=0:00:02.583825
+--------------------------------------------------------------------------------
+latent_dim=20, batch_size=32, epochs=30
+reconstruction_error_threshold=0.0132, anomalies_detected=18, training_time=0:00:03.310822
+--------------------------------------------------------------------------------
+latent_dim=20, batch_size=32, epochs=50
+reconstruction_error_threshold=0.0130, anomalies_detected=18, training_time=0:00:05.673266
+--------------------------------------------------------------------------------
+latent_dim=20, batch_size=64, epochs=20
+reconstruction_error_threshold=0.0135, anomalies_detected=18, training_time=0:00:02.199162
+--------------------------------------------------------------------------------
+latent_dim=20, batch_size=64, epochs=30
+reconstruction_error_threshold=0.0150, anomalies_detected=18, training_time=0:00:02.681046
+--------------------------------------------------------------------------------
+latent_dim=20, batch_size=64, epochs=50
+reconstruction_error_threshold=0.0136, anomalies_detected=18, training_time=0:00:03.722218
+--------------------------------------------------------------------------------

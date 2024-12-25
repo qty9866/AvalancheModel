@@ -1,4 +1,112 @@
-Training Log
-Parameters: latent_dim, batch_size, epochs
-Results: reconstruction_error_threshold, anomalies_detected, training_time
---------------------------------------------------------------------------------
+Training with params: {'heads': 1, 'hidden_channels': 8, 'learning_rate': 0.001, 'weight_decay': 0.0}
+Final Loss for params {'heads': 1, 'hidden_channels': 8, 'learning_rate': 0.001, 'weight_decay': 0.0}: 0.047537
+--------------------------------------------------
+Training with params: {'heads': 1, 'hidden_channels': 8, 'learning_rate': 0.001, 'weight_decay': 0.0001}
+Final Loss for params {'heads': 1, 'hidden_channels': 8, 'learning_rate': 0.001, 'weight_decay': 0.0001}: 0.049062
+--------------------------------------------------
+Training with params: {'heads': 1, 'hidden_channels': 8, 'learning_rate': 0.005, 'weight_decay': 0.0}
+Final Loss for params {'heads': 1, 'hidden_channels': 8, 'learning_rate': 0.005, 'weight_decay': 0.0}: 0.069228
+--------------------------------------------------
+Training with params: {'heads': 1, 'hidden_channels': 8, 'learning_rate': 0.005, 'weight_decay': 0.0001}
+Final Loss for params {'heads': 1, 'hidden_channels': 8, 'learning_rate': 0.005, 'weight_decay': 0.0001}: 0.123612
+--------------------------------------------------
+Training with params: {'heads': 1, 'hidden_channels': 16, 'learning_rate': 0.001, 'weight_decay': 0.0}
+Final Loss for params {'heads': 1, 'hidden_channels': 16, 'learning_rate': 0.001, 'weight_decay': 0.0}: 0.044581
+--------------------------------------------------
+Training with params: {'heads': 1, 'hidden_channels': 16, 'learning_rate': 0.001, 'weight_decay': 0.0001}
+Final Loss for params {'heads': 1, 'hidden_channels': 16, 'learning_rate': 0.001, 'weight_decay': 0.0001}: 0.052174
+--------------------------------------------------
+Training with params: {'heads': 1, 'hidden_channels': 16, 'learning_rate': 0.005, 'weight_decay': 0.0}
+Final Loss for params {'heads': 1, 'hidden_channels': 16, 'learning_rate': 0.005, 'weight_decay': 0.0}: 0.042889
+--------------------------------------------------
+Training with params: {'heads': 1, 'hidden_channels': 16, 'learning_rate': 0.005, 'weight_decay': 0.0001}
+Final Loss for params {'heads': 1, 'hidden_channels': 16, 'learning_rate': 0.005, 'weight_decay': 0.0001}: 0.046767
+--------------------------------------------------
+Training with params: {'heads': 1, 'hidden_channels': 32, 'learning_rate': 0.001, 'weight_decay': 0.0}
+Final Loss for params {'heads': 1, 'hidden_channels': 32, 'learning_rate': 0.001, 'weight_decay': 0.0}: 0.046623
+--------------------------------------------------
+Training with params: {'heads': 1, 'hidden_channels': 32, 'learning_rate': 0.001, 'weight_decay': 0.0001}
+Final Loss for params {'heads': 1, 'hidden_channels': 32, 'learning_rate': 0.001, 'weight_decay': 0.0001}: 0.123396
+--------------------------------------------------
+Training with params: {'heads': 1, 'hidden_channels': 32, 'learning_rate': 0.005, 'weight_decay': 0.0}
+Final Loss for params {'heads': 1, 'hidden_channels': 32, 'learning_rate': 0.005, 'weight_decay': 0.0}: 0.120429
+--------------------------------------------------
+Training with params: {'heads': 1, 'hidden_channels': 32, 'learning_rate': 0.005, 'weight_decay': 0.0001}
+Final Loss for params {'heads': 1, 'hidden_channels': 32, 'learning_rate': 0.005, 'weight_decay': 0.0001}: 0.123609
+--------------------------------------------------
+Training with params: {'heads': 2, 'hidden_channels': 8, 'learning_rate': 0.001, 'weight_decay': 0.0}
+Final Loss for params {'heads': 2, 'hidden_channels': 8, 'learning_rate': 0.001, 'weight_decay': 0.0}: 0.044603
+--------------------------------------------------
+Training with params: {'heads': 2, 'hidden_channels': 8, 'learning_rate': 0.001, 'weight_decay': 0.0001}
+Final Loss for params {'heads': 2, 'hidden_channels': 8, 'learning_rate': 0.001, 'weight_decay': 0.0001}: 0.044850
+--------------------------------------------------
+Training with params: {'heads': 2, 'hidden_channels': 8, 'learning_rate': 0.005, 'weight_decay': 0.0}
+Final Loss for params {'heads': 2, 'hidden_channels': 8, 'learning_rate': 0.005, 'weight_decay': 0.0}: 0.054209
+--------------------------------------------------
+Training with params: {'heads': 2, 'hidden_channels': 8, 'learning_rate': 0.005, 'weight_decay': 0.0001}
+Final Loss for params {'heads': 2, 'hidden_channels': 8, 'learning_rate': 0.005, 'weight_decay': 0.0001}: 0.043408
+--------------------------------------------------
+Training with params: {'heads': 2, 'hidden_channels': 16, 'learning_rate': 0.001, 'weight_decay': 0.0}
+Final Loss for params {'heads': 2, 'hidden_channels': 16, 'learning_rate': 0.001, 'weight_decay': 0.0}: 0.047430
+--------------------------------------------------
+Training with params: {'heads': 2, 'hidden_channels': 16, 'learning_rate': 0.001, 'weight_decay': 0.0001}
+Final Loss for params {'heads': 2, 'hidden_channels': 16, 'learning_rate': 0.001, 'weight_decay': 0.0001}: 0.046008
+--------------------------------------------------
+Training with params: {'heads': 2, 'hidden_channels': 16, 'learning_rate': 0.005, 'weight_decay': 0.0}
+Final Loss for params {'heads': 2, 'hidden_channels': 16, 'learning_rate': 0.005, 'weight_decay': 0.0}: 0.052108
+--------------------------------------------------
+Training with params: {'heads': 2, 'hidden_channels': 16, 'learning_rate': 0.005, 'weight_decay': 0.0001}
+Final Loss for params {'heads': 2, 'hidden_channels': 16, 'learning_rate': 0.005, 'weight_decay': 0.0001}: 0.123604
+--------------------------------------------------
+Training with params: {'heads': 2, 'hidden_channels': 32, 'learning_rate': 0.001, 'weight_decay': 0.0}
+Final Loss for params {'heads': 2, 'hidden_channels': 32, 'learning_rate': 0.001, 'weight_decay': 0.0}: 0.047449
+--------------------------------------------------
+Training with params: {'heads': 2, 'hidden_channels': 32, 'learning_rate': 0.001, 'weight_decay': 0.0001}
+Final Loss for params {'heads': 2, 'hidden_channels': 32, 'learning_rate': 0.001, 'weight_decay': 0.0001}: 0.044489
+--------------------------------------------------
+Training with params: {'heads': 2, 'hidden_channels': 32, 'learning_rate': 0.005, 'weight_decay': 0.0}
+Final Loss for params {'heads': 2, 'hidden_channels': 32, 'learning_rate': 0.005, 'weight_decay': 0.0}: 0.123165
+--------------------------------------------------
+Training with params: {'heads': 2, 'hidden_channels': 32, 'learning_rate': 0.005, 'weight_decay': 0.0001}
+Final Loss for params {'heads': 2, 'hidden_channels': 32, 'learning_rate': 0.005, 'weight_decay': 0.0001}: 0.123608
+--------------------------------------------------
+Training with params: {'heads': 4, 'hidden_channels': 8, 'learning_rate': 0.001, 'weight_decay': 0.0}
+Final Loss for params {'heads': 4, 'hidden_channels': 8, 'learning_rate': 0.001, 'weight_decay': 0.0}: 0.058862
+--------------------------------------------------
+Training with params: {'heads': 4, 'hidden_channels': 8, 'learning_rate': 0.001, 'weight_decay': 0.0001}
+Final Loss for params {'heads': 4, 'hidden_channels': 8, 'learning_rate': 0.001, 'weight_decay': 0.0001}: 0.123356
+--------------------------------------------------
+Training with params: {'heads': 4, 'hidden_channels': 8, 'learning_rate': 0.005, 'weight_decay': 0.0}
+Final Loss for params {'heads': 4, 'hidden_channels': 8, 'learning_rate': 0.005, 'weight_decay': 0.0}: 0.054037
+--------------------------------------------------
+Training with params: {'heads': 4, 'hidden_channels': 8, 'learning_rate': 0.005, 'weight_decay': 0.0001}
+Final Loss for params {'heads': 4, 'hidden_channels': 8, 'learning_rate': 0.005, 'weight_decay': 0.0001}: 0.073296
+--------------------------------------------------
+Training with params: {'heads': 4, 'hidden_channels': 16, 'learning_rate': 0.001, 'weight_decay': 0.0}
+Final Loss for params {'heads': 4, 'hidden_channels': 16, 'learning_rate': 0.001, 'weight_decay': 0.0}: 0.119924
+--------------------------------------------------
+Training with params: {'heads': 4, 'hidden_channels': 16, 'learning_rate': 0.001, 'weight_decay': 0.0001}
+Final Loss for params {'heads': 4, 'hidden_channels': 16, 'learning_rate': 0.001, 'weight_decay': 0.0001}: 0.071370
+--------------------------------------------------
+Training with params: {'heads': 4, 'hidden_channels': 16, 'learning_rate': 0.005, 'weight_decay': 0.0}
+Final Loss for params {'heads': 4, 'hidden_channels': 16, 'learning_rate': 0.005, 'weight_decay': 0.0}: 0.123274
+--------------------------------------------------
+Training with params: {'heads': 4, 'hidden_channels': 16, 'learning_rate': 0.005, 'weight_decay': 0.0001}
+Final Loss for params {'heads': 4, 'hidden_channels': 16, 'learning_rate': 0.005, 'weight_decay': 0.0001}: 0.123607
+--------------------------------------------------
+Training with params: {'heads': 4, 'hidden_channels': 32, 'learning_rate': 0.001, 'weight_decay': 0.0}
+Final Loss for params {'heads': 4, 'hidden_channels': 32, 'learning_rate': 0.001, 'weight_decay': 0.0}: 0.044884
+--------------------------------------------------
+Training with params: {'heads': 4, 'hidden_channels': 32, 'learning_rate': 0.001, 'weight_decay': 0.0001}
+Final Loss for params {'heads': 4, 'hidden_channels': 32, 'learning_rate': 0.001, 'weight_decay': 0.0001}: 0.046012
+--------------------------------------------------
+Training with params: {'heads': 4, 'hidden_channels': 32, 'learning_rate': 0.005, 'weight_decay': 0.0}
+Final Loss for params {'heads': 4, 'hidden_channels': 32, 'learning_rate': 0.005, 'weight_decay': 0.0}: 0.123605
+--------------------------------------------------
+Training with params: {'heads': 4, 'hidden_channels': 32, 'learning_rate': 0.005, 'weight_decay': 0.0001}
+Final Loss for params {'heads': 4, 'hidden_channels': 32, 'learning_rate': 0.005, 'weight_decay': 0.0001}: 0.123607
+--------------------------------------------------
+
+Best Hyperparameters:
+{'heads': 1, 'hidden_channels': 16, 'learning_rate': 0.005, 'weight_decay': 0.0}
+Best Loss: 0.042889
